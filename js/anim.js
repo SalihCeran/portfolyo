@@ -233,6 +233,7 @@
 			 document.getElementById("logo4-div").className = "hidden";	
 			 document.getElementById("logo5-div").className = "hidden";	
 			 document.getElementById("logo6-div").className = "hidden";	
+			 document.getElementById("ersen-div").className = "hidden";	
 			
 			 document.getElementById("dergi-div").className = "hidden";	
 			 document.getElementById("isgad-div").className = "hidden";					
@@ -277,8 +278,17 @@
 			 document.getElementById("sosyal1-div").className = "hidden";
 			 document.getElementById("sosyal2-div").className = "hidden";
 			 document.getElementById("sosyal3-div").className = "hidden";
+			 document.getElementById("dsm-div").className = "hidden";
+			 document.getElementById("fors1-div").className = "hidden";
+			 document.getElementById("fors2-div").className = "hidden";
+			 document.getElementById("ikibinyirmibes-div").className = "hidden";
+			 document.getElementById("bungalov-div").className = "hidden";
+			 document.getElementById("ersen-video-div").className = "hidden";
+			 document.getElementById("arsa-div").className = "hidden";
 			 
 			 document.getElementById("assassin-div").className = "hidden";
+			 document.getElementById("mnd-video-div").className = "hidden";
+			 document.getElementById("ozge-intro-div").className = "hidden";
 			 document.getElementById("run-div").className = "hidden";
 			 
 			 document.getElementById("ayakkabi1-div").className = "hidden";
@@ -420,14 +430,33 @@ window.onscroll = function() {
 			
 			 document.getElementById("logo6-div").className = "logo6-anim golge"	
 			 
-			 setTimeout(buttonlari_duzelt(), 1200);		 			 
-			 setTimeout(logo_button_boz(), 1250); 
+			 setTimeout(ersen_func, 300); 
 			 
+			
 		}
 		
+				
 		function logo6_func_scroll() {
 			
 			 document.getElementById("logo6-div").className = "logo6-anim-scroll golge"	
+			
+		}
+		
+		
+		function ersen_func() {
+			
+			 document.getElementById("ersen-div").className = "ersen-anim golge"	
+			 
+			  
+			 setTimeout(buttonlari_duzelt(), 1200);		 			 			 
+			 setTimeout(logo_button_boz(), 1250); 
+			 		 
+			
+		}
+		
+		function ersen_func_scroll() {
+			
+			 document.getElementById("ersen-div").className = "ersen-anim-scroll golge"	
 			
 		}
 		
@@ -978,12 +1007,11 @@ window.onscroll = function() {
 		
 		function sosyal3_func() {
 			
-			 document.getElementById("sosyal3-div").className = "sosyal3-anim golge"	
+			 document.getElementById("sosyal3-div").className = "sosyal3-anim golge"				 		 
+			 setTimeout(dsm_func, 300); 
 			 
 			 setTimeout(sosyal3_func_scroll, 1000); 
-			 
-			 setTimeout(buttonlari_duzelt(), 1200);		 			 
-			 setTimeout(sosyal_button_boz(), 1250); 
+
 			
 		}
 		
@@ -993,13 +1021,146 @@ window.onscroll = function() {
 			
 		}
 
+
+
+		function dsm_func() {
+			
+			 document.getElementById("dsm-div").className = "dsm-anim golge"				 			 		 
+			 setTimeout(fors1_func, 300); 
+			 
+			 setTimeout(dsm_func_scroll, 1000); 
+			 
+	
+			
+		}
+		
+		function dsm_func_scroll() {
+			
+			 document.getElementById("dsm-div").className = "dsm-anim-scroll golge"	
+			
+		}
+		
+		
+		function fors1_func() {
+			
+			 document.getElementById("fors1-div").className = "fors1-anim golge"
+			 setTimeout(fors2_func, 300); 	
+			 
+			 setTimeout(fors1_func_scroll, 1000); 
+			
+		}
+		
+		function fors1_func_scroll() {
+			
+			 document.getElementById("fors1-div").className = "fors1-anim-scroll golge"	
+			
+		}		
+		
+		
+		
+		function fors2_func() {
+			
+			 document.getElementById("fors2-div").className = "fors2-anim golge"				 
+			 setTimeout(fors2_func_scroll, 1000); 	
+			 		 			 			 		 
+			 setTimeout(ikibinyirmibes_func, 300); 
+			 
+	
+			
+		}
+		
+		function fors2_func_scroll() {
+			
+			 document.getElementById("fors2-div").className = "fors2-anim-scroll golge"	
+			
+		}		
+		
+		
+		function ikibinyirmibes_func() {
+			
+			 document.getElementById("ikibinyirmibes-div").className = "ikibinyirmibes-anim golge"	
+			 setTimeout(bungalov_func, 300); 	
+			 		 
+			 setTimeout(ikibinyirmibes_func_scroll, 1000); 		 
+			
+			
+		}
+		
+		function ikibinyirmibes_func_scroll() {
+			
+			 document.getElementById("ikibinyirmibes-div").className = "ikibinyirmibes-anim-scroll golge"	
+			
+		}	
+		
+		
+		function bungalov_func() {
+			
+			 document.getElementById("bungalov-div").className = "bungalov-anim golge"	
+			 setTimeout(ersen_video_func, 300); 	
+			 		 
+			 setTimeout(bungalov_func_scroll, 1000); 		 
+			
+			
+		}
+		
+		function bungalov_func_scroll() {
+			
+			 document.getElementById("bungalov-div").className = "bungalov-anim-scroll golge"	
+			
+		}	
+		
+		
+		function ersen_video_func() {
+			
+			 document.getElementById("ersen-video-div").className = "ersen-video-anim golge"	 
+			 
+			 setTimeout(arsa_func, 300); 	
+			 	
+			 		 
+			 setTimeout(ersen_video_func_scroll, 1000); 		 
+			
+			
+		}
+		
+		function ersen_video_func_scroll() {
+			
+			 document.getElementById("ersen-video-div").className = "ersen-video-anim-scroll golge"	
+			
+		}	
+		
+		
+		
+		function arsa_func() {
+			
+			 document.getElementById("arsa-div").className = "arsa-anim golge"	 
+			 
+			 setTimeout(buttonlari_duzelt(), 1200);		 			 
+		 	 setTimeout(sosyal_button_boz(), 1250); 
+			 	
+			 		 
+			 setTimeout(arsa_func_scroll, 1000); 		 
+			
+			
+		}
+		
+		function arsa_func_scroll() {
+			
+			 document.getElementById("arsa-div").className = "arsa-anim-scroll golge"	
+			
+		}	
+		
+		
+		
+		
+	
+
 <!------------------------------------------------------------------------------------->
 
 		function assassin_func() {
 			
 			 document.getElementById("assassin-div").className = "assassin-anim golge"
 			 
-			 setTimeout(run_func, 300); 
+			 setTimeout(mnd_video_func, 300); 
 			 
 			 setTimeout(assassin_func_scroll, 1000); 
 			
@@ -1008,6 +1169,41 @@ window.onscroll = function() {
 		function assassin_func_scroll() {
 			
 			 document.getElementById("assassin-div").className = "assassin-anim-scroll golge"	
+			
+		}
+				
+		
+		function mnd_video_func() {
+			
+			 document.getElementById("mnd-video-div").className = "mnd-video-anim golge"
+			 
+			 setTimeout(ozge_intro_func, 300); 
+			 
+			 setTimeout(mnd_video_func_scroll, 1000); 
+			
+		}
+		
+		function mnd_video_func_scroll() {
+			
+			 document.getElementById("mnd-video-div").className = "mnd-video-anim-scroll golge"	
+			
+		}
+		
+		
+		
+		function ozge_intro_func() {
+			
+			 document.getElementById("ozge-intro-div").className = "ozge-intro-anim golge"
+			 
+			 setTimeout(run_func, 300); 
+			 
+			 setTimeout(ozge_intro_func_scroll, 1000); 
+			
+		}
+		
+		function ozge_intro_func_scroll() {
+			
+			 document.getElementById("ozge-intro-div").className = "ozge-intro-anim-scroll golge"	
 			
 		}
 		

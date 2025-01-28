@@ -270,7 +270,9 @@ function index() {
 
 		setTimeout("location.href = '#index';",100)	
 		
-		window.history.scrollRestoration = 'manual'
+		window.history.scrollRestoration = 'manual'		
+		
+		setTimeout(buttonlari_boz(), 10);	
 }
 
 function all_passive() {	
@@ -291,7 +293,7 @@ function all_passive() {
 	  
 function logo() {	
 
-		document.getElementById("portfolyo").style.height = "78vw" ;
+		document.getElementById("portfolyo").style.height = "100vw" ;
 		
 		setTimeout(all_passive(), 10);		
 		
@@ -318,7 +320,7 @@ function kartvizit() {
 		
 		setTimeout(all_passive(), 10);		
 		
-		document.getElementById("kartvizit-li").className = "kt-active";	
+		document.getElementById("kartvizit-li").className = "kt-active";		
 		
 		setTimeout("location.href = '#portfolyo';",1)	
 	
@@ -332,6 +334,7 @@ function kartvizit() {
 				
 		setTimeout(kartvizit1_func(), 1000); 
       }
+	  
 	  
 function afis() {
 	
@@ -443,7 +446,7 @@ function tipografi() {
 	  
 function sosyal() {
 	
-		document.getElementById("portfolyo").style.height = "40vw" ;
+		document.getElementById("portfolyo").style.height = "135vw" ;
 		
 		setTimeout(all_passive(), 10);		
 		
@@ -464,7 +467,7 @@ function sosyal() {
 	  
 function animasyon() {
 	
-		document.getElementById("portfolyo").style.height = "60vw" ;
+		document.getElementById("portfolyo").style.height = "80vw" ;
 		
 		setTimeout(all_passive(), 10);		
 		
@@ -609,6 +612,14 @@ function logo6_big_func() {
 		image.src = "img/5-logo/logo.jpg"		
 }
 
+
+function ersen_big_func() {		
+		document.getElementById("popup-big").className = "img-big-yatay";	
+		document.getElementById("popup-a-id").href="img/5-logo/ersen.jpg"; 
+		
+		var image = document.getElementById("popup-img-id");
+		image.src = "img/5-logo/ersen.jpg"		
+}
 
 
 function kartvizit1_big_func() {		
@@ -877,6 +888,32 @@ function sosyal3_big_func() {
 }
 
 
+function dsm_big_func() {		
+		document.getElementById("popup-big").className = "img-big-yatay";
+		document.getElementById("popup-a-id").href="img/8-sosyal/dsm.jpg"; 	
+		
+		var image = document.getElementById("popup-img-id");
+		image.src = "img/8-sosyal/dsm.jpg"		
+}
+
+
+function fors1_big_func() {		
+		document.getElementById("popup-big").className = "img-big-yatay";
+		document.getElementById("popup-a-id").href="img/8-sosyal/fors1.jpg"; 	
+		
+		var image = document.getElementById("popup-img-id");
+		image.src = "img/8-sosyal/fors1.jpg"		
+}
+
+
+function fors2_big_func() {		
+		document.getElementById("popup-big").className = "img-big-yatay";
+		document.getElementById("popup-a-id").href="img/8-sosyal/fors2.jpg"; 	
+		
+		var image = document.getElementById("popup-img-id");
+		image.src = "img/8-sosyal/fors2.jpg"		
+}
+
 
 function ayakkabi1_big_func() {		
 		document.getElementById("popup-big").className = "img-big-yatay";
@@ -885,6 +922,7 @@ function ayakkabi1_big_func() {
 		var image = document.getElementById("popup-img-id");
 		image.src = "img/10-ucd/1-ayakkabi-1.png"		
 }
+
 
 function ayakkabi2_big_func() {		
 		document.getElementById("popup-big").className = "img-big-yatay";

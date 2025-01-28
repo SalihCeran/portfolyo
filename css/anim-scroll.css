@@ -1199,11 +1199,43 @@
 	
 }
 	
+	
+.mnd-video-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: mnd-video-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+	
+	
+
+.ozge-intro-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: ozge-intro-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}	
+	
 
 .run-anim-scroll {
 	
 	width: 28%;
-	margin-left:2%;	
+	margin-left:4%;	
 	margin-right:2%;
 	opacity:0;
 	
@@ -1723,6 +1755,19 @@
 	animation-range-end: 20vw;
 	
 }
+
+.ersen-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: ersen-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+}
 	
 
 
@@ -1772,6 +1817,119 @@
 	
 }
 
+
+	
+	
+.dsm-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: dsm-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+
+
+.fors1-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: fors1-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+	
+.fors2-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: fors2-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+
+
+.ikibinyirmibes-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: ikibinyirmibes-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+
+
+
+.bungalov-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: bungalov-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}
+	
+	
+.ersen-video-anim-scroll {
+	
+	width: 28%;
+	margin-left:2%;	
+	margin-right:4%;
+	opacity:0;
+	
+	animation: ersen-video-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}	
+	
+	
+	
+.arsa-anim-scroll {
+	
+	width: 28%;
+	margin-left:4%;	
+	margin-right:2%;
+	opacity:0;
+	
+	animation: arsa-anim2 linear forwards;
+	animation-timeline:	view();
+	animation-range-start: -10vw;
+	animation-range-end: 10vw;
+	
+}		
+	
+	
+	
 .tipografi1-anim-scroll {
 	
 	width: 28%;
@@ -1785,8 +1943,8 @@
 	animation-range-end: 10vw;
 	
 }
+		
 	
-
 
 .tipografi2-anim-scroll {
 	
